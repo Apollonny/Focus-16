@@ -80,9 +80,9 @@ def main() -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
     config = FocusAudioConfig(minutes=args.minutes)
     raw_path = output_dir / "focus-16-raw.wav"
-    wav_path = output_dir / "Focus-16-v0.1.wav"
-    flac_path = output_dir / "Focus-16-v0.1.flac"
-    mp3_path = output_dir / "Focus-16-v0.1.mp3"
+    wav_path = output_dir / "Focus-16.wav"
+    flac_path = output_dir / "Focus-16.flac"
+    mp3_path = output_dir / "Focus-16.mp3"
 
     render = generate_wav(raw_path, config)
     loudness = two_pass_loudnorm(raw_path, wav_path, config.sample_rate)
@@ -105,7 +105,7 @@ def main() -> int:
             for path in (wav_path, flac_path, mp3_path)
         },
     }
-    report_path = output_dir / "Focus-16-v0.1-report.json"
+    report_path = output_dir / "Focus-16-report.json"
     report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
     print(json.dumps(report, indent=2))
     return 0

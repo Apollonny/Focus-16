@@ -36,7 +36,7 @@
     "target_offset": "-0.04"
   },
   "verification": {
-    "path": "build/Focus-16-v0.1.wav",
+    "path": "build/Focus-16.wav",
     "sample_rate": 48000,
     "channels": 2,
     "frames": 28800000,
@@ -49,15 +49,15 @@
     "no_clipping": true
   },
   "files": {
-    "Focus-16-v0.1.wav": {
+    "Focus-16.wav": {
       "bytes": 115200078,
       "sha256": "1356da4e23214cab8e23b90f5542e123841cddda6b33212febbb6d1f5d4fcebf"
     },
-    "Focus-16-v0.1.flac": {
+    "Focus-16.flac": {
       "bytes": 24241212,
       "sha256": "30c93d4e7a89f1c02f0727cdcbacd8074a695ef12303329141421b35fc3280fa"
     },
-    "Focus-16-v0.1.mp3": {
+    "Focus-16.mp3": {
       "bytes": 14401315,
       "sha256": "bec66932a8496676d361488ea421ca8969af1cd79efaf42dd142b5b46462158e"
     }

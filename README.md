@@ -35,9 +35,9 @@ The generator deliberately excludes speech, lyrics, abrupt section changes, bina
 | `build_release.py` | Generates the normalized WAV, FLAC, MP3, and JSON release report; requires FFmpeg. |
 | `verify_focus_audio.py` | Analyzes the rendered WAV and checks the design constraints. |
 | `tests/test_generator.py` | Unit tests for rendering, modulation, and configuration validation. |
-| `Focus-16-v0.1.flac` | Pre-rendered lossless example. |
-| `Focus-16-v0.1.mp3` | Pre-rendered 192 kbps example. |
-| `Focus-16-v0.1-report.json` | Release metadata, verification results, and SHA-256 hashes. |
+| `Focus-16.flac` | Pre-rendered lossless example. |
+| `Focus-16.mp3` | Pre-rendered 192 kbps example. |
+| `Focus-16-report.json` | Release metadata, verification results, and SHA-256 hashes. |
 | `EVIDENCE.md` | Legacy pointer to the evidence section in this README. |
 | `LICENSE` | MIT License for the project. |
 
