@@ -1,0 +1,65 @@
+{
+  "prototype": "Focus-16",
+  "claim": "experimental; no 2x focus claim",
+  "config": {
+    "bpm": 120.0,
+    "modulation_hz": 16.0,
+    "modulation_depth": 0.28,
+    "modulation_low_hz": 200.0,
+    "modulation_high_hz": 1000.0,
+    "sample_rate": 48000,
+    "minutes": 10.0,
+    "seed": 20260722,
+    "chord_seconds": 16.0,
+    "chord_crossfade_seconds": 2.0,
+    "fade_seconds": 8.0
+  },
+  "render": {
+    "output": "build/focus-16-raw.wav",
+    "frames": 28800000,
+    "sample_rate": 48000,
+    "channels": 2,
+    "seconds": 600.0,
+    "peak_linear": 0.1615793412422981,
+    "rms_linear": 0.033463158570000165
+  },
+  "loudnorm": {
+    "input_i": "-28.90",
+    "input_tp": "-15.83",
+    "input_lra": "1.50",
+    "input_thresh": "-38.94",
+    "output_i": "-22.96",
+    "output_tp": "-9.89",
+    "output_lra": "1.50",
+    "output_thresh": "-33.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.04"
+  },
+  "verification": {
+    "path": "build/Focus-16-v0.1.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "frames": 28800000,
+    "duration_seconds": 600.0,
+    "peak_linear": 0.305999755859375,
+    "rms_linear": 0.06609239395405042,
+    "midband_modulation_peak_hz": 16.0,
+    "modulation_matches": true,
+    "energy_below_6khz_ratio": 0.9999998959446079,
+    "no_clipping": true
+  },
+  "files": {
+    "Focus-16-v0.1.wav": {
+      "bytes": 115200078,
+      "sha256": "1356da4e23214cab8e23b90f5542e123841cddda6b33212febbb6d1f5d4fcebf"
+    },
+    "Focus-16-v0.1.flac": {
+      "bytes": 24241212,
+      "sha256": "30c93d4e7a89f1c02f0727cdcbacd8074a695ef12303329141421b35fc3280fa"
+    },
+    "Focus-16-v0.1.mp3": {
+      "bytes": 14401315,
+      "sha256": "bec66932a8496676d361488ea421ca8969af1cd79efaf42dd142b5b46462158e"
+    }
+  }
+}
